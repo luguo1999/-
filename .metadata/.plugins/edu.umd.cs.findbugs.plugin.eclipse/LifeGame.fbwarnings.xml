@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="6" timestamp="1568601658009" analysisTimestamp="1568601656803" release="">
+  <Project projectName="LifeGame">
+    <Jar>G:\&#36719;&#24037;&#22522;&#30784;&#23454;&#39564;\LifeGame\bin\Frame</Jar>
+    <AuxClasspathEntry>G:\&#36719;&#24037;&#22522;&#30784;&#23454;&#39564;\LifeGame\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\gl\Downloads\eclipse\plugins\org.junit_4.10.0.v4_10_0_v20120426-0900\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\gl\Downloads\eclipse\plugins\org.hamcrest.core_1.1.0.v20090501071000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>G:\&#36719;&#24037;&#22522;&#30784;&#23454;&#39564;\LifeGame\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 16 Sep 2019 08:46:48 +0800" total_classes="8" referenced_classes="279" total_bugs="0" total_size="205" num_packages="1" java_version="1.7.0_79" vm_version="24.79-b02" cpu_seconds="1.75" clock_seconds="1.21" peak_mbytes="267.87" alloc_mbytes="494.94" gc_seconds="0.10">
+    <PackageStats package="Frame" total_bugs="0" total_types="8" total_size="205">
+      <ClassStats class="Frame.Lifegame" sourceFile="Lifegame.java" interface="false" size="54" bugs="0"/>
+      <ClassStats class="Frame.Lifegame$1" sourceFile="Lifegame.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="Frame.Lifegame$1$1" sourceFile="Lifegame.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="Frame.Lifegame$2" sourceFile="Lifegame.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="Frame.Lifegame$2$1" sourceFile="Lifegame.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="Frame.Lifegame$3" sourceFile="Lifegame.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="Frame.Logic" sourceFile="Logic.java" interface="false" size="56" bugs="0"/>
+      <ClassStats class="Frame.Main" sourceFile="Main.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="262" invocations="1337" avgMicrosecondsPerInvocation="196" maxMicrosecondsPerInvocation="21468" standardDeviationMircosecondsPerInvocation="866"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="140" invocations="279" avgMicrosecondsPerInvocation="503" maxMicrosecondsPerInvocation="16628" standardDeviationMircosecondsPerInvocation="1378"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="121" invocations="279" avgMicrosecondsPerInvocation="434" maxMicrosecondsPerInvocation="6194" standardDeviationMircosecondsPerInvocation="832"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="105" invocations="1340" avgMicrosecondsPerInvocation="78" maxMicrosecondsPerInvocation="428" standardDeviationMircosecondsPerInvocation="32"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="80" invocations="2" avgMicrosecondsPerInvocation="40397" maxMicrosecondsPerInvocation="57432" standardDeviationMircosecondsPerInvocation="17035"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="70" invocations="592" avgMicrosecondsPerInvocation="119" maxMicrosecondsPerInvocation="1336" standardDeviationMircosecondsPerInvocation="128"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="47" invocations="279" avgMicrosecondsPerInvocation="171" maxMicrosecondsPerInvocation="21860" standardDeviationMircosecondsPerInvocation="1312"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="40" invocations="279" avgMicrosecondsPerInvocation="146" maxMicrosecondsPerInvocation="15716" standardDeviationMircosecondsPerInvocation="946"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="40" invocations="279" avgMicrosecondsPerInvocation="144" maxMicrosecondsPerInvocation="2173" standardDeviationMircosecondsPerInvocation="268"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1568601449765" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1568601449766" release="" codeSize="205" numClasses="8"/>
+    <AppVersion sequence="2" timestamp="1568601491648" release="" codeSize="205" numClasses="8"/>
+    <AppVersion sequence="3" timestamp="1568601504308" release="" codeSize="205" numClasses="8"/>
+    <AppVersion sequence="4" timestamp="1568601590676" release="" codeSize="141" numClasses="6"/>
+    <AppVersion sequence="5" timestamp="1568601642948" release="" codeSize="205" numClasses="8"/>
+  </History>
+</BugCollection>
